@@ -1,0 +1,27 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+p{
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.smallbox{
+    height: 50%;
+    width: 100%;
+    background-color: goldenrod;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+}

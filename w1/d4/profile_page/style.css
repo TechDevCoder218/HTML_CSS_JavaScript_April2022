@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, span, a{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.arrow{
+    font-size: 75px;
+    color: white;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#homeicon{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.container{
+    border: 2px black solid;
+    width: 1000px;
+    height:700px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    /* border-top: 2px black solid; */
+    /* border-bottom: 1px black solid; */
+    /* border: 1px black solid; */
+}
+
+#urlbox{
+    margin-top: 30px;
+}
+
+#searchfield{
+    margin-top: 30px;
+}
+
+.pointers > img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    color: white;
+    background-color: gray;
+}
+
+#urlbox{
+    margin-top: 30px;
+    height: 20px;
+    border-radius: 25px;
+}
+
+#searchfield{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 100px;
+    height: 20px;
+    border-radius: 25px;
+}
+
+.menubar{
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    display:flex;
+    
+}
+
+li{
+    margin: 10px;
+    display:inline-block;
+}
+
+ul{
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+.menubar .signout{
+    height: 20px;
+    margin-top: 20px;
+    color: teal;
+    margin-right: 100px;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
+button{
+    height: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: teal;
+    margin-right: 100px;
+}
+
+.menubar > .menus{
+    color: white;
+    display: inline-block;
+}
+
+.maininfo{
+    width: 100%;
+    height: 500px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    display: flex;
+}
+
+.bottompanel{
+    background-color: gray;
+    width: 100%;
+    height: 25px;
+    border-top: 2px black solid;
+    border-bottom: 1px black solid;
+}
+
+.leftuserpanel{
+    /* background-color: lightblue; */
+    width:400px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.rightuserpanel{
+    /* background-color: lightgreen; */
+    width:400px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardpanel{
+    border: 2px gray solid;
+    width: 100%;
+    height:250px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.topband{
+    background-color: teal;
+    width: 100%;
+    height: 50px;
+}
+
+.bottomband{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userbox > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px gray;
+    margin-left: 25px;
+    margin-top: -50px;
+    display:inline-block;
+    /* filter:invert(100%); */
+}
+
+.userinfo{
+    width: 75%;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+}
+
+.username{
+    width: 100%;
+    height: 50px;
+    margin-left: 25px;
+}
+
+.userlocation{
+    width: 100%;
+    height: 60px;
+    margin-left: 25px;
+}
+
+.userlocation img{
+    width: 10px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.userdesc{
+    width: 100%;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.userdesc > p{
+    font-size:12px;
+}
+
+.profilelink{
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    margin-left: 25px;
+}
+
+.profilelink img{
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.profilelink > a{
+    font-size: 12px;
+}
+
+.education{
+    border: 2px gray solid;
+    width: 350px;
+    height:150px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.edutop{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid gray;
+}
+
+.edutop > h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:white;
+}
+
+.edubottom{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.edubottom > #schoolname{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.edubottom > #dateinfo{
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+    color: gray;
+}
+
+.edubottom > #techskills{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+.circle{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    background-color: gray;
+}
+
+.oval{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    background-color: gray;
+}
+
+.connectreq{
+    border: 2px gray solid;
+    width: 250px;
+    height:150px;
+    display: flex;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.reqtop{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+
+.reqtop > h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:white;
+}
+
+.reqbottom{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.connect1{
+    width: 100%;
+    height: 25px;
+    display:flex;
+}
+
+.connect1 > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    /* filter:invert(100%); */
+}
+
+.connect1 > p{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.connect2{
+    margin-top: 15px;
+    width: 100%;
+    height: 25px;
+    display:flex;
+}
+
+.connect2 > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    /* filter:invert(100%); */
+}
+
+.connect2 > p{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+.reqbottom > #schoolname{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.reqbottom > #dateinfo{
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+    color: gray;
+}
+
+.reqbottom > #techskills{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+.yourconnect{
+    border: 2px gray solid;
+    width: 250px;
+    height:250px;
+    display: flex;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.connectytop{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+
+.connectytop > h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:white;
+}
+
+.connectybottom{
+    background-color: white;
+    width: 100%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+}
+
+.connecty1{
+    width: 100%;
+    height: 25px;
+    display:flex;
+}
+
+.connecty1 > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    /* filter:invert(100%); */
+}
+
+.connecty1 > p{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.connecty2{
+    margin-top: 15px;
+    width: 100%;
+    height: 25px;
+    display:flex;
+}
+
+.connecty2 > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    /* filter:invert(100%); */
+}
+
+.connecty2 > p{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+.connecty3{
+    margin-top: 10px;
+    width: 100%;
+    height: 25px;
+    display:flex;
+}
+
+.connecty3 > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    /* filter:invert(100%); */
+}
+
+.connecty3 > p{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.connecty4{
+    margin-top: 15px;
+    width: 100%;
+    height: 25px;
+    display:flex;
+}
+
+.connecty4 > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    /* filter:invert(100%); */
+}
+
+.connecty4 > p{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+.connectybottom > #schoolname{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.connectybottom > #dateinfo{
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+    color: gray;
+}
+
+.connectybottom > #techskills{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+.viewmore{
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    border-top: 2px solid gray;
+}
+
+.viewmore a{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+}
+
+
+

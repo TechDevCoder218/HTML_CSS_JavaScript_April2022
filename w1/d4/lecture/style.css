@@ -1,0 +1,29 @@
+.parent{
+    height: 300px;
+    background-color: bisque;
+}
+
+.child{
+    height: 150px;
+}
+
+.ggc{
+    height: 100px;
+    background-color: aqua;
+}
+
+.parent > .child{
+    background-color: violet;
+}
+
+.parent, .child{
+    border: 4px dashed green;
+}
+
+.parent.child{
+    border: 10px solid black;
+}
+
+.child:hover{
+    background-color: blue;
+}
