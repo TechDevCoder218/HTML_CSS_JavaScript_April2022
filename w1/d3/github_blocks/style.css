@@ -1,0 +1,55 @@
+.githubblocks{
+    margin: 0 auto;
+    font-size: large;
+    text-align: center;
+    color: rgb(28, 26, 26);
+}
+
+.container{
+    padding: 10px;
+    background-color: lightgrey;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topband{
+    padding: 10px;
+    height: 210px;
+    width: 95%;
+    background-color: aqua;
+    display: flex;
+    justify-content:space-between;
+}
+
+.middleband{
+    margin-top: 10px;
+    padding: 10px;
+    height: 210px;
+    width: 95%;
+    background-color: pink;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.bottomband{
+    margin-top: 10px;
+    padding: 10px;
+    height: 210px;
+    width: 95%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:space-between;
+}
+
+img{
+    background-color: white;
+    height: 200px;
+}
+
+.octocredit{
+    color:blue;
+    text-align:center;
+}

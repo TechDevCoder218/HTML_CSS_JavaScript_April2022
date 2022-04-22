@@ -1,0 +1,38 @@
+.row{
+    display: flex;
+}
+
+.col{
+    flex: 25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+
+.row ~ .row > .col{
+    flex: 33%;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+
+.col-2{
+    flex: 66%;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+
+.row ~ .row ~ .row > .col-2{
+    flex: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+
+.col-3{
+    flex: 60%;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+}

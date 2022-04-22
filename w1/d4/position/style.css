@@ -1,0 +1,39 @@
+*{
+    /* outline: 1px solid pink; */
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    background-color: bisque;
+}
+
+.carl{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+    position:relative;
+    top: 30px;
+    left: 30px;
+}
+
+.bob{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    position:absolute;
+    right: 100px;
+    bottom: 10px;
+}
+
+.stick{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: sticky;
+    top: 30px;
+    bottom: 20px;
+}
