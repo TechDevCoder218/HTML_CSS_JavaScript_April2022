@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#">
+        <div>
+            <label for="firstname">First Name:*</label>
+            <input type="text" id="firstname" name="firstname"><br><br>
+        </div>
+        <div>
+            <label for="lastname">Last Name:*</label>
+            <input type="text" id="lastname" name="lastname"><br><br>
+        </div>
+        <div>
+            <label for="emailaddr">Email Address:*</label>
+            <input type="text" id="emailaddr" name="emailaddr"><br><br>
+        </div>
+        <div>
+            <label for="passwd">Password:*</label>
+            <input type="password" id="passwd" name="passwd"><br><br>
+        </div>
+        <div>
+            <label for="birthdt">Birthday:*</label>
+            <input type="date" id="birthdt" name="birthdt"><br><br>
+        </div>
+        <div>Gender Identity:</div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="testradio">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="testradio">
+            <label for="nonbinary">Non-binary</label>
+            <input type="radio" id="nonbinary" name="testradio">
+            <label for="prefernotanswer">I prefer not to answer</label>
+            <input type="radio" id="prefernotanswer" name="testradio"><br><br>
+        </div>
+        <div>A short description about myself:</div>
+        <textarea id="entertext" name="entertext" rows="3" cols="50"></textarea><br><br>
+        <div>
+        <label for="favlanguage">Favorite Language:</label>
+            <select id="favlanguage" name="favlanguage">
+            <option value="jvscript">JavaScript</option>
+            <option value="csharp">C#</option>
+            <option value="java">Java</option>
+        </select><br><br>
+        </div>
+        <input type="checkbox" id="rcvemail" name="rcvemail"><label for="rcvemail">Yes, I would like to receive periodic email updates</label><br><br>
+        <input type="submit" value="Create Account"><br><br>
+        * Indicates a required field
+    </form>
+</body>
+</html>
