@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="topband">
+            <div class="col" id="pagetitle">
+                <h1 class="thetitle" id="pagename">Dojonary</h1>
+            </div>
+            <div class="col" id="searchpanel">
+                <textarea class="searchbox" id="searchinput" rows="1">Search</textarea>
+            </div>
+            <div class="col" id="loginbutton">
+                <button onclick="update_text_label(this)" class="rectanglebutton" id="login">Login</button>
+            </div>
+        </div>
+        <div class="bottomband">
+            <div class="col" id="likes">
+                <div class="ninja" id="practitioner">
+                    <div class="ninjanoun" id="ninjainfo_practitioner">
+                        <h1 class="ninjaname">ninja</h1>
+                        <p class="ninjatype">noun</p>
+                        <p class="ninjaplural">Plural: <span class="ninjaitalics">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class="countlikes" id="likecounter1">13 likes</button>
+                    </div>
+                    <div class="addedinfo">
+                        <p class="skilled">A practitioner skilled in the</p>
+                        <p class="skill_links"><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="ninja" id="programmer">
+                    <div class="ninjanoun" id="ninjainfo_programmer">
+                        <h1 class="ninjaname">ninja</h1>
+                        <p class="ninjatype">noun</p>
+                        <p class="ninjaplural">Plural: <span class="ninjaitalics">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class="countlikes" id="likecounter2">37 likes</button>
+                    </div>
+                    <div class="addedinfo">
+                        <p class="skilled">A <a href="#">programmer</a> who breaks</p>
+                        <p class="skill_links">down problems with <a href="#">zen</a>-like</p>
+                        <p class="skillfocus">focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="definition">
+                <div class="dojonary" id="add">
+                    <div class="stmt_top">
+                        <h2>Dojonary is</h2>
+                    </div>
+                    <div class="stmt_bottom">
+                        <h2>defined by <span class="boldstmt">YOU</span></h2>
+                    </div>
+                    <div class="addbutton">
+                        <button onclick="remove_the_element(this)" class="add_definition" id = "add_def">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

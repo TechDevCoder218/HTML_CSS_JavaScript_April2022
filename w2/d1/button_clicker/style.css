@@ -1,0 +1,277 @@
+/* Reset the margin and padding settings with CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+/* Setup a class for a container with flex functionality. Margin entry will center the containter on the screen */
+  .container {
+    width: 850px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+/* Setup a row class with flex functionality */
+  .row{
+    display: flex;
+}
+
+/* Setup class for top menu band for a web page */
+.topband{
+  background-color: teal;
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+/* Setup class for bottom content band for a web page. */
+.bottomband{
+  width: 100%;
+  height: 650px;
+  display: flex;
+}
+
+/* Setup a column class with flex capability */
+.col{
+    display: flex;
+}
+
+/* CSS entries for page title panel */
+.col#pagetitle{
+    width: 35%;
+    height: 100%;
+    background-color: gray;
+}
+
+.thetitle#pagename{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* CSS entries for page search panel */
+.col#searchpanel{
+    width: 45%;
+    height: 100%;
+    background-color: gray;
+}
+
+.searchbox#searchinput{
+    margin-top: 40px;
+    width: 400px;
+    height: 20px;
+    color: gray;
+    border: 2px solid black;
+}
+
+/* CSS entries for page login button panel */
+.col#loginbutton{
+    width: 30%;
+    height: 100%;
+    background-color: gray;
+}
+
+.rectanglebutton#login{
+    margin: 0px auto;
+    margin-top: 35px;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+}
+
+/* Column to contain 'like' elements on the web page */
+.col#likes{
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+}
+
+/* Column to contain 'definition' elements on the web page */
+.col#definition{
+    width: 40%;
+    height: 100%;
+    display:flex;
+    justify-content: right;
+}
+
+/* CSS entries for ninja panels */
+.ninja{
+    margin-top: 20px;
+    width: 100%;
+    height: 280px;
+    display:flex;
+    border: 2px solid black;
+   /* justify-content: center; */
+}
+
+.ninjanoun{
+    padding: 20px;
+    display: flex;
+    /* justify-content: center; */
+    width: 30%;
+    height: 100%;
+    font-family: 'Varela Round', sans-serif;
+    flex-direction: column;
+}
+
+.ninjaname{
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+.ninjatype{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-style: italic;
+}
+
+.ninjaplural{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ninjaitalics{
+    font-style: italic;
+}
+
+.countlikes{
+    margin-top: 40px;
+    color: black;
+    padding: 5px;
+    background-color: yellow;
+    box-shadow: 1px 2px 2px 1px black;
+}
+
+
+.addedinfo{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.skilled{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.skill_links{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.skillfocus{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+/* CSS entries for dojonary definition panels */
+.dojonary{
+    display:flex;
+}
+
+.dojonary#add{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80%;
+    height: 220px;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.stmt_top, .stmt_bottom{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.stmt_bottom{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.boldstmt{
+    font-weight: bold;
+}
+
+.add_definition{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+    padding: 5px;
+    background-color: lightgreen;
+    box-shadow: 1px 2px 2px 1px black;
+}
+
+/* Setup a class for a navigational panel on a web page with flex functionality */
+.nav{
+  padding: 5px;
+  /* height: 50px; */
+  width: 100%;
+  background-color: rgb(59, 58, 58);
+  display:flex;
+  justify-content: space-between;
+}
+
+/* Setup a class for a title div within a navigation panel */
+.nav-title{
+  height: 20px;
+    color: white;
+    font-family: cursive;
+}
+
+/* Setup CSS entry for list items to display horizontally or other needed adjustments */
+li{
+    margin-left:5px;
+    margin-right:5px;
+    display:inline-block
+}
+
+/* Setup CSS entry for 'a' tag adjustments */
+a{
+    color: blue;
+}
+
+/* Setup CSS entry to highlight items on the web page with specific colors or other adjusments */
+.active{
+    color: white;
+}
+
+/* Setup class for an oval shaped button */
+  .ovalbutton{
+    color: rgb(61, 177, 216);
+    background-color: white;
+    width: 100px;
+    border-color:rgb(61, 177, 216);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;   
+}
+
+/* Setup class for a circle shaped button */
+.circlebutton{
+    color: white;
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+/* Setup class for a circle shaped button */
+.rectanglebutton{
+    color: white;
+    padding: 5px;
+    background-color: rgb(61, 177, 216);
+    box-shadow: 1px 2px 2px 1px black;
+}
+
+p, h1, h2{
+    font-family: 'Varela Round', sans-serif;
+}
