@@ -1,0 +1,161 @@
+/* Reset the margin and padding settings with CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Setup a class for a container with flex functionality. Margin entry will center the containter on the screen */
+  .container {
+    width: 1000px;
+    height: 750px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .userpanel{
+      display:flex;
+      width: 400px;
+      height: 200px;
+      margin-left: 200px;
+      margin-top: 50px;
+      border: 5px solid black;
+      flex-direction: column;
+  }
+
+.usercountpanel{
+      display:flex;
+      width: 100%;
+      height: 50%;
+}
+
+.username{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+.counters {
+    padding-top: 30px;
+    margin-left: 75px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+.likesstmt{
+    padding-top: 30px;
+    margin-left: 5px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+.clicklikes{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 50px;
+    height: 30px;
+    color: black;
+    background-color: yellow;
+    box-shadow: 2px 2px 2px 1px black;
+  }
+
+.userdescpanel{
+    padding-top: 10px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 25px;
+}
+  
+  /* Setup a row class with flex functionality */
+  .row{
+    display: flex;
+  }
+  
+  /* Setup class for top menu band for a web page */
+  .topband{
+  background-color: teal;
+  width: 100%;
+  height: 100px;
+  }
+  
+  /* Setup class for bottom content band for a web page. */
+  .bottomband{
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  /* Setup a column class with flex resizing capability */
+  .col{
+    flex: 25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+  }
+  
+  /* Setup a class for a navigational panel on a web page with flex functionality */
+  .nav{
+  padding: 5px;
+  /* height: 50px; */
+  width: 100%;
+  background-color: rgb(59, 58, 58);
+  display:flex;
+  justify-content: space-between;
+  }
+  
+  /* Setup a class for a title div within a navigation panel */
+  .nav-title{
+  height: 20px;
+    color: white;
+    font-family: cursive;
+  }
+  
+  /* Setup CSS entry for list items to display horizontally or other needed adjustments */
+  li{
+    margin-left:5px;
+    margin-right:5px;
+    display:inline-block
+  }
+  
+  /* Setup CSS entry for 'a' tag adjustments */
+  a{
+    color:gray;
+  }
+  
+  /* Setup CSS entry to highlight items on the web page with specific colors or other adjusments */
+  .active{
+    color: white;
+  }
+  
+  /* Setup class for an oval shaped button */
+  .ovalbutton{
+    color: rgb(61, 177, 216);
+    background-color: white;
+    width: 100px;
+    border-color:rgb(61, 177, 216);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;   
+  }
+  
+  /* Setup class for a circle shaped button */
+  .circlebutton{
+    color: white;
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: 50%;
+  }
+  
+  /* Setup class for a circle shaped button */
+  .rectanglebutton{
+    color: green;
+    background-color: rgb(61, 177, 216);
+    box-shadow: 2px 2px 2px 1px rgba(61,177,216);
+  }
