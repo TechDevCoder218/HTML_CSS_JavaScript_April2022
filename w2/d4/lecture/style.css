@@ -1,0 +1,11 @@
+/* Sample of Media Query */
+/* This is getting phased out. People are moving to Mobile First Design. Design it in mobile view mode first, and then design for desktop */
+@media only screen and (max-width:500px){
+    .fb{
+        background-color: blue;
+    }
+
+    .container{
+        display: none;
+    }
+}

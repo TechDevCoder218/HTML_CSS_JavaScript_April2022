@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation_bar">
+        <div class="topband" id="titleband">
+            <h1 class="topbandtitle">DojoWeather</h1>
+            <ul class="topbandlinks" id="cities">
+                <li><a href="#" id="city1" onclick="displayalert(this)">Burbank</a></li>
+                <li><a href="#" id="city2" onclick="displayalert(this)">Chicago</a></li>
+                <li><a href="#" id="city3" onclick="displayalert(this)">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="navigation_bar" id="locationtempbar">
+        <div class="topband" id="locationtempinfo">
+            <h1 class="locationtemp">San Jose</h1>
+            <ul class="temperaturelist">
+                <li>show temperature in</li>
+                <select name="temptype" id="temptype" onchange="choosetemptype(this)">
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </ul>
+        </div>
+    </div>
+    <div class="navigation_bar" id="maincontentbar">
+        <div class="topband" id="maincontentband">
+            <div class="dayinfo" id="column1">
+                <h1>Today</h1>
+                <img src="images/some_rain.png" alt="some_rain">
+                <h3>some rain</h3>
+                <h1><span class="day" id="daytemp1">24</span><span id="degreeday">°</span>     <span class="night" id="nighttemp1">18</span><span id="degreenight">°</span></h1>
+            </div>
+            <div class="dayinfo" id="column2">
+                <h1>Tomorrow</h1>
+                <img src="images/some_sun.png" alt="some_sun">
+                <h3>some sun</h3>
+                <h1><span class="day" id="daytemp2">27</span><span id="degreeday">°</span>     <span class="night" id="nighttemp2">19</span><span id="degreenight">°</span></h1>
+            </div>
+            <div class="dayinfo" id="column3">
+                <h1>Friday</h1>
+                <img src="images/some_clouds.png" alt="some_clouds">
+                <h3>some rain</h3>
+                <h1><span class="day" id="daytemp3">21</span><span id="degreeday">°</span>     <span class="night" id="nighttemp3">16</span><span id="degreenight">°</span></h1>
+            </div>
+            <div class="dayinfo" id="column4">
+                <h1>Saturday</h1>
+                <img src="images/some_sun.png" alt="some_sun">
+                <h3>some rain</h3>
+                <h1><span class="day" id="daytemp4">26</span><span id="degreeday">°</span>     <span class="night" id="nighttemp4">21</span><span id="degreenight">°</span></h1>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_bar" id="cookiebar">
+        <div class="topband" id="cookieband">
+            <img src="images/cookie.png" alt="cookie picture" class="cookiestmt">
+            <p class="cookiestmt"><span class="cookieintro">Stop! Cookie time</span><br>
+            We use cookies (sadly not the edible ones) to personalize
+            content and ads, to provide social media features and to 
+            analyze our traffic. <a href="#" id="readmore">Read more...</a></p>
+            <button class="rectanglebutton cookiestmt" id="acceptcookies" onclick="removecookiestmt(cookieband)">I Accept</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

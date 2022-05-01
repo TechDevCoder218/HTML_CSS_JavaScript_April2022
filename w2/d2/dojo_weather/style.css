@@ -1,0 +1,238 @@
+/* Reset the margin and padding settings with CSS */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+      background-color: white;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .navigation_bar{
+      height: 100px;
+      margin-bottom: 10px;
+      color: white;
+  }
+
+  .topband, .topbandlinks, .navigation_bar, .dayinfo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  /* Setup class for top menu band for a web page */
+  .topband{
+    background-color: blue;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .topband#titleband{
+      height: 100px;
+      background-color: rgb(173, 198, 230);
+  }
+
+  #degreeday{
+      color: red;
+  }
+
+  #degreenight{
+      color: blue;
+  }
+
+  .city{
+      margin-right: 20px;
+      font-size: 20px;
+  }
+
+  .topband#locationtempinfo{
+    height: 100px;
+    color: black;
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+
+  .navigation_bar#maincontentbar{
+      height: 250px;
+  }
+
+  .topband#maincontentband{
+      height: 250px;
+      background-color: white;
+      justify-content: space-evenly;
+  }
+
+  .dayinfo{
+      flex: 1;
+      color: black;
+      background-color: lightgray;
+      height: 250px;
+      margin-right: 10px;
+      /* margin-bottom: 10px; */
+      flex-direction: column;
+      /* border: 1px solid black; */
+  }
+  .dayinfo#column4{
+      margin-right: 0;
+  }
+
+  .day{
+      color: red;
+  }
+
+  .night{
+      color: blue;
+  }
+
+  .flex1{
+      flex: 1;
+  }
+
+  .flex2{
+      flex: 2;
+  }
+
+  .flex3{
+      flex: 3;
+  }
+
+  .navigation_bar#cookiebar{
+      height: 200px;
+  }
+
+  .topband#cookieband{
+    height: 150px;
+    background-color: lightgray;
+    border: 2px black solid;
+  }
+
+
+  .cookieintro{
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .cookiestmt{
+      color: black;
+      font-size: 20px;
+      margin-right: 20px;
+  }
+
+  img{
+      width: 115px;
+      height: 115px;
+      border-radius: 50%;
+  }
+
+
+    
+      
+  /* Setup a class for a container with flex functionality. Margin entry will center the containter on the screen */
+  /*
+  .container {
+    width: 1000px;
+    height: 750px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    display: flex;
+  }
+  */
+  
+  /* Setup a row class with flex functionality */
+  /*
+  .row{
+    display: flex;
+  }
+  */
+  
+  /* Setup class for bottom content band for a web page. */
+  .bottomband{
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  /* Setup a column class with flex resizing capability */
+  .col{
+    flex: 25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+  }
+  
+  /* Setup a class for a navigational panel on a web page with flex functionality */
+  .nav{
+  padding: 5px;
+  /* height: 50px; */
+  width: 100%;
+  background-color: rgb(59, 58, 58);
+  display:flex;
+  justify-content: space-between;
+  }
+  
+  /* Setup a class for a title div within a navigation panel */
+  .nav-title{
+  height: 20px;
+    color: white;
+    font-family: cursive;
+  }
+  
+  /* Setup CSS entry for list items to display horizontally or other needed adjustments */
+  li{
+    margin-left:5px;
+    margin-right:5px;
+    display:inline-block
+  }
+  
+  /* Setup CSS entry for 'a' tag adjustments */
+  a{
+    color:gray;
+  }
+  
+  /* Setup CSS entry to highlight items on the web page with specific colors or other adjusments */
+  .active{
+    color: white;
+  }
+  
+  /* Setup class for an oval shaped button */
+  .ovalbutton{
+    color: rgb(61, 177, 216);
+    background-color: white;
+    width: 100px;
+    border-color:rgb(61, 177, 216);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;   
+  }
+  
+  /* Setup class for a circle shaped button */
+  .circlebutton{
+    color: white;
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: 50%;
+  }
+  
+  /* Setup class for a circle shaped button */
+  .rectanglebutton{
+    color: black;
+    width: 100px;
+    font-size: 15px;
+    background-color: rgb(61, 177, 216);
+    box-shadow: 2px 2px 2px 1px black;
+  }
+
+  a{
+    font-size: 25;
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+  }
+
+  #readmore{
+      color:blue;
+      text-decoration:underline;
+  }
